@@ -1,1 +1,106 @@
 
+<html>
+    <head>
+        <title> Apresentando o Formulário </title>
+    </head>
+    
+    <body> 
+    <h1> Apresentando o Formulário </h1>
+      
+      <form action="/recebe.html" method="post">
+      <br> <label for="login" required> Nome completo:</label>
+      <input type="text" maxlenght="50" id="login" name="nomecompleto" >
+      <br>
+      
+      <br> <label for="email" required> E-mail:</label>
+      <input type="email" id="email" name="email">
+      <br> 
+      
+      <br> <label for="idade" required> Idade:</label>
+      <input type="number"  min="05" max="125" id="idade" name="idade">
+      <br>
+     <br> 
+     <p> Escolha seu estado: </p> 
+     <select name="Estado" required>
+    <option value="minasgerais">Minas Gerais</option>
+    <option value="saopaulo">Sáo Paulo</option>
+    <option value="espiritosanto"> Espirito Santo</option>
+    <option value="bahia"> Bahia </option> 
+    <option value="parana"> Paraná </option> 
+    <option value="amazonas"> Amazonas </option> 
+    <option value="goias"> Goiás </option> 
+    <option value="santacatarina"> Santa Catarina </option> 
+    <option value="riograndedosul"> Rio Grande do Sul </option>
+    <option value="para"> Pará </option>
+    <option value="matogrosso"> Mato Grosso </option> 
+    <option value="ceara"> Ceará </option> 
+    <option value="pernambuco"> Pernambuco </option> 
+    <option value="matogrossodosul"> Mato Grosso do Sul </option> 
+    <option value="maranhao"> Maranhão </option>
+    <option value="tocantins"> Tocantins </option> 
+    <option value="alagoas"> Alagoas </option> 
+    <option value="acre"> Acre </option>
+    <option value="riograndedonorte"> Rio Grande do Norte </option>
+    <option value="amapa"> Amapa </option> 
+    <option value="riodejaneiro"> Rio de Janeiro </option> 
+    <option value="paraiba"> Paraíba </option> 
+    <option value="rondonia"> Rondônia  </option>
+    <option value="roraima"> Roraima </option> 
+    <option value="sergipe"> Sergipe </option> 
+    <option value="piaui"> Piauí </option>
+    
+    </select>
+    <br>
+    <p> Você já ouviu falar sobre Cultura Oceânica? </p> 
+    <input type="radio" id="botão" name="botãoopçao" value="Sim">
+    <label> Sim </label>
+    <input type="radio" id="botão" name="botãoopçao" value="Não">
+    <label> Não </label>
+    <br>
+    
+    <p> Qual sua relação com o mar? </p>
+    <textarea rows="5" cols="50" required ></textarea>
+    
+    <p> Quais dessas ações você já participou? </p>
+    <input type="checkbox" id= "ações" name= "ações" value= "reutilização">
+    <label> Reutilização de plásticos e embalagens para a redução de lixos  </label>
+    <br>
+    <input type="checkbox" id= "ações" name= "ações" value= "descarte">
+    <label> Evitou fazer o descarte de lixo nas praias, rios ou mares </label>
+    <br>
+    <input type="checkbox" id= "ações" name= "ações" value= "sacolas">
+    <label> Utilização de sacolas reutilizáveis ao fazer compras </label>
+    <br>
+    <input type="checkbox" id= "ações" name= "ações" value= "campanhas">
+    <label> Participação de campanhas sobre a vida marinha </label>
+    <br>
+    <input type="checkbox" id= "ações" name= "ações" value= "transporte">
+    <label> Optou por meios de transportes menos poluentes  </label>
+    <br>
+    <input type="checkbox" id= "ações" name= "ações" value= "agua">
+    <label> Economizou a água no dia a dia  </label>
+    <br>
+    <input type="checkbox" id= "ações" name= "ações" value= "informações">
+    <label> Compartilhou informações sobre a proteção dos oceanos nas redes sociais  </label>
+    <br>
+    <input type="checkbox" id= "ações" name= "ações" value= "denuncia">
+    <label> Denunciou ou evitou práticas prejudiciais ao meio ambiente marinho </label>
+    <br>
+    <input type="checkbox" id= "ações" name= "ações" value= "projetos">
+    <label> Apoiou projetos ou ONGs ligadas a conservação marinha  </label>
+    <br>
+    
+     <p> Tem algua sujestão de iniciativa oceânica? </p>
+    <textarea rows="5" cols="50" ></textarea>
+    <br>
+    <br>
+    <input type= "submit" value="Enviar" >
+    <br>
+    <br>
+    <input type="reset" value="Limpar Formulário">
+
+      
+      
+      </form>
+    </body>
+</html>
