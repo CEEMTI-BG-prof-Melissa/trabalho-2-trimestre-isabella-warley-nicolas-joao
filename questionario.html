@@ -4,9 +4,13 @@
     </head>
     
     <body> 
+    <div style="width:100%; background-color:#f5f5f5; border-bottom:1px solid #ccc; padding:5px 10px; font-size:13px;">
+    <a href="javascript:history.back()" style="text-decoration:none; color:#333;">← Voltar</a>
+    </div>
     <h1> Apresentando o Formulário </h1>
       
       <form action="/recebe.html" method="post">
+
       <br> <label for="login" required> Nome completo:</label>
       <input type="text" maxlength="50" id="login" name="nomecompleto" >
       <br>
@@ -50,9 +54,9 @@
     </select>
     <br>
     <p> Você já ouviu falar sobre Cultura Oceânica? </p> 
-    <input type="radio" id="botão" name="botãoopçao" value="Sim">
+    <input type="radio" id="botãoS" name="botãoopçao" value="Sim">
     <label> Sim </label>
-    <input type="radio" id="botão" name="botãoopçao" value="Não">
+    <input type="radio" id="botãoN" name="botãoopçao" value="Não">
     <label> Não </label>
     <br>
     
@@ -60,31 +64,31 @@
     <textarea rows="5" cols="50" required ></textarea>
     
     <p> Quais dessas ações você já participou? </p>
-    <input type="checkbox" id= "ações" name= "ações" value= "reutilização">
+    <input type="checkbox" id= "reutilizacao" name= "reutilizacao" value= "reutilizacao">
     <label> Reutilização de plásticos e embalagens para a redução de lixos  </label>
     <br>
-    <input type="checkbox" id= "ações" name= "ações" value= "descarte">
+    <input type="checkbox" id= "descarte" name= "descarte" value= "descarte">
     <label> Evitou fazer o descarte de lixo nas praias, rios ou mares </label>
     <br>
-    <input type="checkbox" id= "ações" name= "ações" value= "sacolas">
+    <input type="checkbox" id= "sacolas" name= "sacolas" value= "sacolas">
     <label> Utilização de sacolas reutilizáveis ao fazer compras </label>
     <br>
-    <input type="checkbox" id= "ações" name= "ações" value= "campanhas">
+    <input type="checkbox" id= "campanhas" name= "campanhas" value= "campanhas">
     <label> Participação de campanhas sobre a vida marinha </label>
     <br>
-    <input type="checkbox" id= "ações" name= "ações" value= "transporte">
+    <input type="checkbox" id= "transporte" name= "transporte" value= "transporte">
     <label> Optou por meios de transportes menos poluentes  </label>
     <br>
-    <input type="checkbox" id= "ações" name= "ações" value= "agua">
+    <input type="checkbox" id= "agua" name= "agua" value= "agua">
     <label> Economizou a água no dia a dia  </label>
     <br>
-    <input type="checkbox" id= "ações" name= "ações" value= "informações">
+    <input type="checkbox" id= "informações" name= "informações" value= "informações">
     <label> Compartilhou informações sobre a proteção dos oceanos nas redes sociais  </label>
     <br>
-    <input type="checkbox" id= "ações" name= "ações" value= "denuncia">
+    <input type="checkbox" id= "denuncia" name= "denuncia" value= "denuncia">
     <label> Denunciou ou evitou práticas prejudiciais ao meio ambiente marinho </label>
     <br>
-    <input type="checkbox" id= "ações" name= "ações" value= "projetos">
+    <input type="checkbox" id= "projetos" name= "projetos" value= "projetos">
     <label> Apoiou projetos ou ONGs ligadas a conservação marinha  </label>
     <br>
     
